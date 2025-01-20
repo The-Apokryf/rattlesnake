@@ -1,20 +1,13 @@
-# rattlesnake
-Cute yet powerfull tool in c#, for admin work acceleration in chill easy interaction and to automate developer's tasks with colorfull console interfacing
+
+# klarowanie pomysłu
+
+- core koncept - kanoniczny, zkompilowany
+- extended concept - uwzględniony bdziampakiem 
 
 ---
 
-> DEVNOTES:
+#### core koncept
 
-nowa odsłona istniejącego już projektu: https://github.com/Sarverott/rattlesnake
-##### about
-pierwotnie projekt miał służyć do czego innego, ale funkcjonalność jako uniwersalny zestaw do prostego i szybgiego komponowania narzędzi dla administratorów i deweloperów okazał się o wiele ciekawszym projektem.
-
-począdkowo był to program w c++ który dla danej aktualnej ścieżki operacyjnej w FS realizował swoje zadania korzystając z konfiguracji plikami ini, plików tekstowych, wykonywania komend i drzewa katalogów jako otwarcia submenu poprostu zmieniając aktualną ścieżkę i robiąc pętlę. 
-
-Miało to całkiem spory potencjał, bo mocno usprawniało prace w projektach gdzie funkcjonalność `npm run <command>` byłaby przydatna lecz występowanie `package.json` niewskazane z powodu braku zasadności - **skoro to nie projekt javascriptowy lub pokrewny to byłby tutaj dupy**.
-
-
-##### klarowanie pomysłu
 - zamiast c++ użyjmy c#
 - Spectre jest fajne i prostsze niż gołe strumienie cpp z kolorowaniem używając escapecodes
 - jako default sterowanie strzałkami, wybieranie opcji
@@ -40,6 +33,7 @@ Miało to całkiem spory potencjał, bo mocno usprawniało prace w projektach gd
 - ustalmy, że domyślnie konfiguracja to plik z nazwą wg wzoru `.rattlesnake.*` z końcówką należącą do powyższych ERGO: `.rattlesnake.ini` lub `.rattlesnake.json` lub `.rattlesnake.yaml` lub `.rattlesnake.toml`
 - przy starcie programu `PlaySound` 2sek fragment piosenki **King Gizzard & The Lizard Wizard - Rattlesnake** (https://youtu.be/Q-i1XZc8ZwA) zawierającego wypowiadane w piosence słowo "**Rattlesnake**"
 
+#### extended concept
 
 - c# otwiera nam drogę zabawy z powershellem, można spróbować integracji
 	- najpierw CMDLET
